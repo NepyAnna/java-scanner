@@ -32,6 +32,6 @@ public class SignUp {
         //Añade una nueva línea antes de mostrar la respuesta
 
         System.out.println();
-        System.out.println(String.format("Hello %s  %s, your username is %s and your password is %s, thank you for registering.", name, surname, userName, password));
+        System.out.printf("Hello %s  %s, your username is %s and your password is %s, thank you for registering.%n", name, surname, userName, password);
     }
 }
